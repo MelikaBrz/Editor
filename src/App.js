@@ -23,3 +23,23 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+// *********************************************************function-base
+// import "./Quill/styles.css";
+// import Eeditor from "./Quill/Eeditor";
+
+// export default function App() {
+//   return (
+//     <div className="App">
+     
+//       <Eeditor />
+//     </div>
+//   );
+// }

@@ -1,0 +1,117 @@
+body {
+    background: #f1f3f13b;
+    font-family: sans-serif;
+  }
+  
+  #root {
+    margin: 1rem 4rem;
+  }
+  
+  #root .ql-container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+
+  }
+  
+  /* Snow Theme */
+  #root .ql-snow.ql-toolbar {
+    display: block;
+
+    /* background: #ef32d94d; */
+    background: linear-gradient(to right, #89fffd38, #ef32d936);
+    /* background: linear-gradient(to right, #CFDEF3, #083a9400); 
+    /* background: linear-gradient(to right, #CFDEF3, #083a9400); */
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    /* width: 72%; */
+    padding: 1rem 1rem;
+}
+.ql-toolbar.ql-snow .ql-picker-label {
+  border: 1px solid #bcbdbebd;
+  border-radius: .15rem;
+  font-style: italic;
+  font-size: smaller;
+}
+.ql-toolbar.ql-snow .ql-picker-label:hover {
+  border: 1px solid #818181ec;
+  border-radius: .15rem;
+  
+  box-shadow: rgba(182, 181, 181, 0.2) 0px 2px 8px 0px;
+  
+}
+.ql-snow.ql-toolbar button:hover, .ql-snow .ql-toolbar button :hover {
+
+  border: 1px solid #818181ec;
+  border-radius: .15rem;
+  
+  box-shadow: rgba(182, 181, 181, 0.2) 0px 2px 8px 0px;
+  
+
+}
+
+.ql-snow.ql-toolbar button, .ql-snow .ql-toolbar button {
+  background: none;
+  font-style: italic;
+  border: 1px solid #bcbdbebd;
+  cursor: pointer;
+  border-radius: .15rem;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  /* padding: 3px 5px; */
+  width: 28px;
+}
+  .ql-snow .ql-editor img {
+    cursor: pointer;
+    max-width: 100%;}
+  #root .ql-editor {
+    min-height: 18em;
+  }
+  #root .ql-container {
+background-color: #ffeeee3b;
+
+
+  }
+  
+
+  .ql-toolbar.ql-snow .ql-picker-options {
+    border: 1px solid transparent;
+    box-shadow: rgb(0 0 0 / 20%) 0 2px 8px;
+  animation-name: stretch;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-iteration-count: 1;
+  }
+  @keyframes stretch {
+ 
+
+    90% {
+      transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+
+.ql-snow.ql-toolbar button, .ql-snow .ql-toolbar button {
+  background: none;
+  /* border: 1px solid rgba(7, 7, 7, 0.212); */
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  padding: 3px 5px;
+  width: 30px;
+}
+
+.ql-toolbar.ql-snow .ql-formats {
+  /* border-right: 1px solid rgba(8, 8, 8, 0.11); */
+  margin-right: 0;
+  padding-left: .3rem;
+  padding-right: .3rem;
+}
